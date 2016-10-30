@@ -1,0 +1,32 @@
+{
+  "name": "lazydropUsers",
+  "base": "User",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "userFollowers": {
+      "type": "number",
+      "default": 0
+    },
+    "userGUID": {
+      "type": "string"
+    },
+    "userLatitude": {
+      "type": "number",
+      "required": true
+    },
+    "userLongitude": {
+      "type": "number",
+      "required": true
+    },
+    "userStories": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

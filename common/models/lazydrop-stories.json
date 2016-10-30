@@ -1,0 +1,42 @@
+{
+  "name": "lazydropStories",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "storyLatitude": {
+      "type": "number",
+      "required": true
+    },
+    "storyLongitude": {
+      "type": "number",
+      "required": true
+    },
+    "storyLikesCount": {
+      "type": "number"
+    },
+    "storyText": {
+      "type": "string",
+      "required": true
+    },
+    "storyTimestamp": {
+      "type": "string",
+      "required": true
+    },
+    "userGUID": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "lazydropUsers": {
+      "type": "belongsTo",
+      "model": "lazydropUsers",
+      "foreignKey": "userGUID"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

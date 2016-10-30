@@ -1,0 +1,16 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "MongoDb": {
+    "host": "localhost",
+    "port": 27017,
+    "url": "",
+    "database": "lazydropDb",
+    "password": "",
+    "name": "MongoDb",
+    "user": "",
+    "connector": "mongodb"
+  }
+}
