@@ -23,7 +23,7 @@
     },
     "storyTimestamp": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "userGUID": {
       "type": "string"
