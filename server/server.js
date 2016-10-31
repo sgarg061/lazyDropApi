@@ -36,7 +36,6 @@ try {
   process.exit(1); // fatal
 }
 
-// -- Add your pre-processing middleware here --
 
 // Setup the view engine (jade)
 var path = require('path');
