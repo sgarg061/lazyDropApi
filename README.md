@@ -26,6 +26,13 @@ Type: POST
 Data Required: email, password
 ```
 
+* Facebook Authorization 
+
+```
+Endpoint: /auth/facebook
+Create a button and give it a href="/auth/facebook"
+```
+
 * Fetch all stories
 
 ```
